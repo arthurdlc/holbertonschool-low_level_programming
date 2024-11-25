@@ -1,6 +1,19 @@
-#include "main.h"
+// File: 0-reset_to_98.c
+
+#include <stdio.h>
 
 void reset_to_98(int *n)
 {
-    *n = 98; // ici le * sert a faire reference au parametre c'est le fameux pointeur. apres on met le nom de la variable
+    *n = 98;
+}
+
+int main(void)
+{
+    int n;
+
+    n = 402;
+    printf("n=%d\n", n);
+    reset_to_98(&n);
+    printf("n=%d\n", n);
+    return (0);
 }
