@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * returns the length of a string
+ * puts2 - prints every other character of a string
  * @str: the string to be measured
  * Return: the length of the string
  */
