@@ -1,5 +1,4 @@
 #include "main.h"
-
 /**
  * returns the length of a string
  * @str: the string to be measured
