@@ -4,7 +4,6 @@
  * returns the length of a string
  * @str: the string to be measured
  * Return: the length of the string
- * 
  */
 void puts2(char *str)
 {
