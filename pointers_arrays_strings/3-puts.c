@@ -11,9 +11,9 @@ void _puts(char *str)
 {
     while (*str != '\0') /* Loop through the string */
     {
-        printf("%c", *str); /* Print each character */
+        write("%c", *str); /* Print each character */
         str++; /* Move to the next character */
     }
     
-    printf("\n"); /* Print a new line after the string */
+    write("\n"); /* Print a new line after the string */
 }
