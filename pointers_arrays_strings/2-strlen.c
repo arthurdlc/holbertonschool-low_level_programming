@@ -1,11 +1,10 @@
 #include "main.h"
 
 /**
- * swap_int - Swaps the values of two integers.
- * @s: Pointer to the first integer.
+ * _strlen - renvoiie le taille d'une chaine de caractere.
+ * @s: la chaine de caractere.
  */
 int _strlen(char *s)
 {
-	int temp;
-	temp = strlen(*s);
+    return strlen(s); //il faut faire un return
 }
