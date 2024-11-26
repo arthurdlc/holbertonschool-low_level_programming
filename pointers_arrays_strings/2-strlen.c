@@ -8,14 +8,14 @@
  */
 int _strlen(char *s)
 {
-	int length = 0; /* Initialize the length counter to 0 */
+    int length = 0; /* Initialize the length counter to 0 */
 
-	/* Loop through the string until the null terminator is reached */
-	while (s[length] != '\0')
-	{
-		length++; /* Increment the length counter for each character */
-	}
+    /* Loop through the string until the null terminator is reached */
+    for (; s[length] != '\0'; length++) /* Start from length 0, loop while character is not '\0' */
+    {
+        /* length is incremented in the loop header */
+    }
 
-	/* Return the total length of the string */
-	return (length);
+    /* Return the total length of the string */
+    return (length);
 }
