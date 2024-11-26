@@ -1,19 +1,16 @@
-#include "main.h"
-#include <stdio.h>
+#include "main.h"  /* Assurez-vous que _putchar est déclaré ici */
 
 /**
- * _puts - Prints a string, followed by a new line, to stdout.
- * @str: The string to print.
- * 
- * Return: Nothing.
+ * _puts - Affiche une chaîne de caractères suivie d'un saut de ligne sur stdout.
+ * @str: La chaîne de caractères à afficher.
  */
 void _puts(char *str)
 {
-    while (*str != '\0') /* Loop through the string */
+    while (*str != '\0')  /* Tant qu'on n'est pas à la fin de la chaîne */
     {
-        write("%c", *str); /* Print each character */
-        str++; /* Move to the next character */
+        _putchar(*str);  /* Utiliser _putchar pour afficher chaque caractère */
+        str++;  /* Passer au caractère suivant */
     }
-    
-    write("\n"); /* Print a new line after the string */
+
+    _putchar('\n');  /* Afficher un saut de ligne après la chaîne */
 }
