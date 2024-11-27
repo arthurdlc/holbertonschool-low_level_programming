@@ -13,8 +13,10 @@ int i;
 for (i = 0; i < n; i++)
 {
 printf("%d", a[i]); /* Imprime un entier */
-if (i < n - 1) /* Ajouter une virgule et un espace sauf pour le dernier élément */
+if (i < n - 1)
+{
 printf(", ");
+} /* Ajouter une virgule et un espace sauf pour le dernier élément */
 }
 printf("\n"); /* Imprime une nouvelle ligne */
 }
