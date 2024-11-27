@@ -1,9 +1,9 @@
 #include "main.h"
-/*
-*
-*
-*
-*/
+/**
+ * puts_half - prints every other character of a string
+ * @str: the string to be measured
+ * Return: the length of the string
+ */
 void puts_half(char *str)
 {
 int len = 0, i, n;
